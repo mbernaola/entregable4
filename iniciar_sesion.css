@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Great+Vibes&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Roboto";
+    background-color: rgb(255, 233, 205);
+  }
+  
+  header {
+    padding: 1em 0;
+    background-color: #c94b4b;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 6em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    color: rgba(201, 75, 75, 0.85);
+    border-bottom: 2px solid white;
+    background-color: yellow;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .formulario{
+    width: 420px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 240px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #c94b4b;
+    font-family: "Great Vibes";
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background: #c94b4b;
+    color: rgb(241, 233, 233);
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #b71c1c;
+  }
+  
+  .form-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+  }
+  
+  .form-links a {
+    color: #d32f2f;
+    text-decoration: none;
+  }
+  
+  .form-links a:hover {
+    text-decoration: underline;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(112, 231, 112);
+    font-size: 3rem;
+    padding: 5px;
+    z-index: 100;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .whatsapp-icon:hover {
+    transform: scale(1.1);
+  }
